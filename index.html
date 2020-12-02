@@ -18,10 +18,10 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body class="landing">
-
+		<script type='text/javascript' src='config.js'></script>
 		<script language="JavaScript">
 			var userpass;
-			var password = "3602";
+			var password = config.MY_PASSWORD;
 			while (true) {
 				userpass = prompt('Enter Password to View Page');
 				if (password == userpass) {
